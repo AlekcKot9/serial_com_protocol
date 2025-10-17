@@ -789,7 +789,7 @@ std::string workSecond(std::string input) {
             result = assembleDataFromPackets(received);
         }
         else {
-            result = "Error: No packets received";
+            result = "Error: No packets receivedd";
         }
     }
     catch (const std::exception& e) {
